@@ -40,8 +40,8 @@ def xml_to_csv(path):
                  int(member.find("bndbox").find('ymin').text),
                  int(member.find("bndbox").find('xmax').text),
                  int(member.find("bndbox").find('ymax').text)
-                ) 
-                xml_list.append(value)
+           )
+           xml_list.append(value)
     column_name = [
         "filename",
         "width",
