@@ -1,0 +1,10 @@
+item {
+    name: "hardhat",
+    id: 1,
+    display_name: "hardhat"
+}
+item {
+    name: "worker",
+    id: 2,
+    display_name: "worker"
+}
